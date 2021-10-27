@@ -9,7 +9,7 @@ import psycopg2
 app = Flask(__name__,template_folder="my_templates")
 app.config['SECRET_KEY'] = 'thisismyflasksecretkey'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234567@localhost:5432/user_table'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:K4mi1a5625*@localhost:5432/user_table'
 db = SQLAlchemy(app)
 class User(db.Model):
     tablename = 'user_n'
